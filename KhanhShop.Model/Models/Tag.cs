@@ -8,6 +8,7 @@ namespace KhanhShop.Model.Models
     {
         [Key]
         [MaxLength(50)]
+        [Column(TypeName ="varchar")]
         public string Id { set; get; }
 
         [MaxLength(50)]

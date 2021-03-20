@@ -8,9 +8,11 @@ namespace KhanhShop.Model.Models
     public class OrderDetail
     {
         [Key]
+        [Column(Order=1)]
         public int OrderId { set; get; }
 
         [Key]
+        [Column(Order=2)]
         public int ProductId { set; get; }
 
         public int Quantity { set; get; }
